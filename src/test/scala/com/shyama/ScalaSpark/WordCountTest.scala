@@ -3,6 +3,8 @@ package com.shyama.ScalaSpark
 //import com.shyama.ScalaSpark.WordCount
 // Java
 import java.io.{FileWriter, File}
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
 
 // Scala
 import scala.io.Source
@@ -13,6 +15,8 @@ import com.google.common.io.Files
 // Specs2
 //import org.specs2.mutable.Specification
 import org.scalatest.FunSuite
+
+@RunWith(classOf[JUnitRunner])
 class WordCountTest extends FunSuite {
 
   test("WordCount_test"){
