@@ -128,6 +128,6 @@
     <url>http://localhost:8081/nexus/content/repositories/myFirst-REL</url>
   </repository> 
 
-<distributionManagement>
+</distributionManagement>
   
 </project>
