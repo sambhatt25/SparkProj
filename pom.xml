@@ -116,8 +116,9 @@
       </plugin>
     </plugins>
   </build>
+ 
+ <distributionManagement> 
   
-  <repositories>
     <snapshotRepository>
     <id>myFirst</id>
     <url>http://localhost:8081/nexus/content/repositories/myFirst</url>
@@ -125,8 +126,8 @@
   <repository>
     <id>myFirst-REL</id>
     <url>http://localhost:8081/nexus/content/repositories/myFirst-REL</url>
-  </repository>
- 
-</repositories>
+  </repository> 
+
+<distributionManagement>
   
 </project>
