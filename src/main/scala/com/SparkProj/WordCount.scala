@@ -1,4 +1,4 @@
-package com.shyama.ScalaSpark
+package com.SparkProj
 
 // Spark
 import org.apache.spark.{
@@ -8,7 +8,7 @@ import org.apache.spark.{
 import SparkContext._
 
 object WordCount {
-  System.setProperty("hadoop.home.dir", "C:\\Users\\Shyama")
+  System.setProperty("hadoop.home.dir", "C:\\hadoop")
   private val AppName = "WordCountJob"
 
   // Run the word count. Agnostic to Spark's current mode of operation: can be run from tests as well as from main

@@ -1,4 +1,4 @@
-package com.shyama.ScalaSpark
+package com.SparkProj
 
 /**
  * @author ${user.name}

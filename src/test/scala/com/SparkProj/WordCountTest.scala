@@ -1,6 +1,6 @@
-package com.shyama.ScalaSpark
+package com.SparkProj
 
-//import com.shyama.ScalaSpark.WordCount
+
 // Java
 import java.io.{FileWriter, File}
 import org.junit.runner.RunWith
