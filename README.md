@@ -1,2 +1,2 @@
-# myFirstProj
-This is my 1st public project in Git
+# A spark project developed in scala
+This is a scala spark project with fully set POM and test cases
